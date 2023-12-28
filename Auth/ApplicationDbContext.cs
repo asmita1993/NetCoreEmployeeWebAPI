@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace EmployeeWebAPI.Auth
 {
     public class ApplicationDbContext:IdentityDbContext<IdentityUser>
-    {
+    {   // todo
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
         {
         }
