@@ -76,7 +76,7 @@ namespace EmployeeWebAPI.Controllers
             return Ok("Updated Successfully");
         }
         [HttpDelete]
-        [Route("DeleteEmployee")]
+        [Route("DeleteEmployee/{id}")]
         //[HttpDelete("{id}")]
         public JsonResult Delete(int id)
         {
